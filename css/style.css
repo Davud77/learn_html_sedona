@@ -1,1 +1,100 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  font-family: "ptsans";
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 56px;
+  background-color: rgb(84, 187, 68);
+}
+.header_nav {
+  display: flex;
+  justify-content: space-around;
+}
+.header_nav_item {
+  font-family: "ptsansbold";
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.86;
+  text-align: center;
+  color: #000;
+}
+.header_nav_item img {
+  margin-top: -15px;
+}
+.header_nav_item a {
+  color: #000;
+}
+
+.welcome {
+  height: 724px;
+  background-color: rgb(167, 39, 39);
+}
+.welcome_logo {
+  padding-top: 75px;
+  text-align: center;
+}
+.welcome_title {
+  margin-top: 140px;
+  text-transform: uppercase;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+.welcome_subtitle {
+  margin-top: 38px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333;
+}
+
+.box {
+  height: 1098px;
+  background-color: rgb(69, 40, 149);
+}
+
+.search {
+  height: 764px;
+  background-color: rgb(166, 209, 35);
+}
+
+.footer {
+  height: 120px;
+  background-color: rgb(203, 26, 115);
+}
+
+@font-face {
+  font-family: "ptsans";
+  src: url(/fonts/web/ptsans.woff) format("woff"), url(/fonts/web/ptsans.woff2) format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "ptsansbold";
+  src: url(/fonts/web/ptsansbold.woff) format("woff"), url(/fonts/web/ptsansbold.woff2) format("woff2");
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */

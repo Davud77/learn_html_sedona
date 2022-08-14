@@ -1,0 +1,24 @@
+.header {
+  height: 56px;
+  background-color: rgb(84, 187, 68);
+  &_nav {
+    display: flex;
+    justify-content: space-around;
+    &_item {
+        font-family: 'ptsansbold';
+        margin-top: 15px;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 1.86;
+        text-align: center;
+        color: #000;
+        img {
+            margin-top: -15px;
+        }
+        a {
+            color: #000;
+        }
+    }
+  }
+}

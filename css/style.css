@@ -45,7 +45,10 @@ a {
 
 .welcome {
   height: 724px;
-  background-color: rgb(167, 39, 39);
+  position: relative;
+  background-image: url(/img/background_photo.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 .welcome_logo {
   padding-top: 75px;
@@ -75,7 +78,119 @@ a {
 
 .box {
   height: 1098px;
-  background-color: rgb(69, 40, 149);
+}
+.box_line1 {
+  display: flex;
+  height: 256px;
+}
+.box_line1_text {
+  width: 400px;
+  height: 256px;
+  background-color: #81b3d2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box_line1_text_title {
+  margin: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+}
+.box_line1_text_numb {
+  margin: 10px;
+  color: #fff;
+  font-size: 18px;
+}
+.box_line1_text_subtitle {
+  width: 300px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+.box_line2 {
+  height: 330px;
+  display: flex;
+  justify-content: space-around;
+}
+.box_line2_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box_line2_item_title {
+  margin: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+.box_line2_item_subtitle {
+  width: 300px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.box_line3 {
+  display: flex;
+  height: 256px;
+}
+.box_line3_text {
+  width: 400px;
+  height: 256px;
+  background-color: #81b3d2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box_line3_text_title {
+  margin: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+}
+.box_line3_text_numb {
+  margin: 10px;
+  color: #fff;
+  font-size: 18px;
+}
+.box_line3_text_subtitle {
+  width: 300px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+.box_line4 {
+  height: 256px;
+  display: flex;
+  justify-content: space-around;
+}
+.box_line4_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box_line4_item_title {
+  margin: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+.box_line4_item_numb {
+  margin: 10px;
+  font-size: 18px;
+}
+.box_line4_item_subtitle {
+  width: 300px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .search {

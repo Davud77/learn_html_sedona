@@ -1,4 +1,116 @@
 .box {
     height: 1098px;
-    background-color: rgb(69, 40, 149);
+    &_line1 {
+        display: flex;
+        height: 256px;
+        &_text {
+            width: 400px;
+            height: 256px;
+            background-color: #81b3d2;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &_title {
+                margin: 10px;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 18px;
+                text-align: center;
+                color: #fff;
+            }
+            &_numb {
+                margin: 10px;
+                color: #fff;
+                font-size: 18px;
+            }
+            &_subtitle {
+                width: 300px;
+                text-transform: uppercase;
+                text-align: center;
+                color: #fff;
+            }
+        }
+    }
+    &_line2 {
+        height: 330px;
+        display: flex;
+        justify-content: space-around;
+        &_item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &_title {
+                margin: 10px;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 18px;
+            }
+            &_subtitle {
+                width: 300px;
+                text-transform: uppercase;
+                text-align: center;
+            }
+        }
+    }
+    &_line3 {
+        display: flex;
+        height: 256px;
+        &_text {
+            width: 400px;
+            height: 256px;
+            background-color: #81b3d2;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &_title {
+                margin: 10px;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 18px;
+                text-align: center;
+                color: #fff;
+            }
+            &_numb {
+                margin: 10px;
+                color: #fff;
+                font-size: 18px;
+            }
+            &_subtitle {
+                width: 300px;
+                text-transform: uppercase;
+                text-align: center;
+                color: #fff;
+            }
+        }
+    }
+    &_line4 {
+        height: 256px;
+        display: flex;
+        justify-content: space-around;
+        &_item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &_title {
+                margin: 10px;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 18px;
+                text-align: center;
+            }
+            &_numb {
+                margin: 10px;
+                font-size: 18px;
+            }
+            &_subtitle {
+                width: 300px;
+                text-transform: uppercase;
+                text-align: center;
+            }
+        }
+    }
 }

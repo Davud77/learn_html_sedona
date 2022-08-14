@@ -1,6 +1,10 @@
 .welcome {
   height: 724px;
-  background-color: rgb(167, 39, 39);
+  
+  position: relative;
+  background-image: url(/img/background_photo.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
   &_logo {
     padding-top: 75px;
     text-align: center;

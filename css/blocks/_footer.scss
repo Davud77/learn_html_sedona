@@ -1,4 +1,47 @@
 .footer {
+    position: relative;
+    display: flex;
     height: 120px;
-    background-color: rgb(203, 26, 115);
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    &_item {
+        width: 300px;
+        &_text {
+            text-transform: uppercase;
+            font-size: 21px;
+            font-weight: bold;
+            line-height: 1.24;
+            color: #000;
+        }
+        &_social {
+            display: flex;
+            justify-content: center;
+            
+            &_block {
+                position: relative;
+                margin: 5px;
+                width: 46px;
+                height: 48px;
+                background-color: #81b3d2;
+                &_img {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    cursor: pointer;
+                }
+            }
+           
+        }
+        &_by {
+            text-transform: uppercase;
+            font-size: 14px;
+            line-height: 1.86;
+            text-align: center;
+            color: #000;
+        }
+    }
 }

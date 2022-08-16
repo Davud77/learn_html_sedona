@@ -20,7 +20,11 @@ a {
 
 .header {
   height: 56px;
-  background-color: rgb(84, 187, 68);
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 20px;
+  z-index: 2;
 }
 .header_nav {
   display: flex;
@@ -44,14 +48,14 @@ a {
 }
 
 .welcome {
-  height: 724px;
+  height: 800px;
   position: relative;
   background-image: url(/img/background_photo.png);
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 .welcome_logo {
-  padding-top: 75px;
+  padding-top: 175px;
   text-align: center;
 }
 .welcome_title {
@@ -111,6 +115,9 @@ a {
   text-align: center;
   color: #fff;
 }
+.box_line1_img {
+  width: 58%;
+}
 .box_line2 {
   height: 330px;
   display: flex;
@@ -164,6 +171,9 @@ a {
   text-transform: uppercase;
   text-align: center;
   color: #fff;
+}
+.box_line3_img {
+  width: 58%;
 }
 .box_line4 {
   background-color: #eeeeee;
@@ -275,6 +285,7 @@ a {
 .search_map {
   position: absolute;
   width: 100%;
+  height: 590px;
   top: 318px;
   z-index: 0;
 }

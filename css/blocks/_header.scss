@@ -1,6 +1,10 @@
 .header {
   height: 56px;
-  background-color: rgb(84, 187, 68);
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 20px;
+  z-index: 2;
   &_nav {
     display: flex;
     justify-content: space-around;
